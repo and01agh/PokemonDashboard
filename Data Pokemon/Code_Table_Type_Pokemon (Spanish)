@@ -1,0 +1,5 @@
+let
+    Origen = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText("bVNBbsMgEPyLz+ERiRonlarKaqv0EOWwIshGJaCCffCTeuipT8jHCgte1lVv3h1m2J3B53Nz8BCC6JwOzjabpjNgRxAnZZV1zWVzblrtVQTaSfW1IVoza9svfXFyBq7OI/4Oo/IR2fYTYGM3pYM7LQe31JWP7RU/wTRPges4z87fwFR+qblAbhGGPRJkUnuj5Oi1jN29uX/hd0YO3k32GvtvWnkPTEEQlIUEO9GC9nNEjnCF1aylX0qCiyKtUhT/eoEJkRU5oBJEP4yZ+jTJAar7gkEpBlHxLsxywJ27cP/+nJaVM49sQhbz6sXJj7p7rIBvXsgkjey1/mK2eB2VMivLxVYqz6d4lGoROWplSiaDC2MdsE02hNtqyPKW64b5Ma8HyUuItBAFnCqoEkTljlGMJFeTjAOza3Fm8Z+9FHW2lwWN/i5/DtpLvw9CxESMM9PdhOarOUy+0xlmPD/44KFHZ9PH/ceyZuUWbEVcAi0pXn4B", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [English = _t, Spanish = _t]),
+    #"Tipo cambiado" = Table.TransformColumnTypes(Origen,{{"English", type text}, {"Spanish", type text}})
+in
+    #"Tipo cambiado"
