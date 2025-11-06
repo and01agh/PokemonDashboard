@@ -7,5 +7,5 @@ Proyecto práctico de análisis de datos para aprender a combinar:
 
 📊 Repositorio educativo para compartir el paso a paso.
 
-📌 Tutorial completo en mi canal de YouTube: [enlace aquí]
+📌 Tutorial completo en mi canal de YouTube: [https://www.youtube.com/@and01agh]
 
