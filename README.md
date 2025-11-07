@@ -5,7 +5,7 @@ Proyecto práctico de análisis de datos para aprender a combinar:
 - Power BI (visualización del tablero)
 - HTML + SVG (mejorar diseño)
 
-📊 Repositorio educativo para compartir el paso a paso.
+📊 Repositorio educativo.
 
-📌 Tutorial completo en mi canal de YouTube: [https://www.youtube.com/@and01agh]
+📌 Visita mi canal de YouTube: [https://www.youtube.com/@and01agh]
 
